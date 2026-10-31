@@ -7,16 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="select">Choose a pet:</label>
-
-    <select name="pets" id="pets" onchange="console.log(this.value)">
-        <option value="">--Please choose an option--</option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-        <option value="hamster">Hamster</option>
-        <option value="parrot">Parrot</option>
-        <option value="spider">Spider</option>
-        <option value="goldfish">Goldfish</option>
-    </select>
+    <div id="select-container">
+        <label for="select">Choose a pet:</label>
+        <select name="pets" id="pets" onchange="console.log(this.value)">
+            <option value="">--Please choose an option--</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+        </select>
+    </div>
 </body>
 </html>
