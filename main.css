@@ -23,12 +23,21 @@ select {
     background: #dddddd;
   }
   select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
+    color: #999999;
+    transition: 0.4s rotate;
+  }
+  select,
+::picker(select) {
+  appearance: base-select;
 }
+
 }
 
 option:checked{
     font-weight: 900;
 }
 
+option::checkmark{
+  margin-left: auto;
+  content: "☑️";
+}
