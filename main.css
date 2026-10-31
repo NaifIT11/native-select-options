@@ -9,3 +9,15 @@
 #select-container{
     margin: 5rem;
 }
+
+select {
+  border: 2px solid #dddddd;
+  background: #eeeeee;
+  padding: 10px;
+  transition: 0.4s;
+  select:hover,
+  select:focus {
+    background: #dddddd;
+  }
+}
+
